@@ -1,15 +1,16 @@
 import cartago.Artifact;
 import cartago.OPERATION;
 
-public class CounterArtifact extends Artifact {
+public class CounterSolution extends Artifact {
 
-    void init(final int count) {
-        defineObsProperty("count", count);
+    void init() {
+        defineObsProperty("count", 0);
     }
 
     @OPERATION
-    void increment() {
+    void inc() {
         final var observableCount = getObsProperty("count");
         observableCount.updateValue(observableCount.intValue() + 1);
+        signal("tick");
     }
 }
