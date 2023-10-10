@@ -1,5 +1,4 @@
 import cartago.Artifact;
-import cartago.OPERATION;
 
 public class Counter extends Artifact {
 
