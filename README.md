@@ -23,4 +23,4 @@ Having the reference to an observable property, allows getting the specific valu
 
 ## Solution
 
-All solution files are marked with the "_solution" suffix, don't open them before solving the exercise!
+All solution files are marked with the "solution" suffix, don't open them before solving the exercise!
