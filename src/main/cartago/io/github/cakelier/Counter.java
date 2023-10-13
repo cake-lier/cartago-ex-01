@@ -1,13 +1,15 @@
+package io.github.cakelier;
+
 import cartago.Artifact;
 
 public class Counter extends Artifact {
 
-    void init() {
+    private void init() {
         /* Add your code here. */
     }
 
     /* Add your code here. */
-    void inc() {
+    public void inc() {
         /* Add your code here */
     }
 }
