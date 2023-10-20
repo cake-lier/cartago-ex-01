@@ -1,4 +1,4 @@
-# JaCaMo by exercises — Exercise 01 — Artifact definition, creation and use
+# CArtAgO by exercises — Exercise 01 — Artifact definition, creation and use
 
 In this exercise, you are asked to create a "user" agent, which creates a "c0" artifact of type "Counter"
 and then uses it twice, executing the "inc" action two times.
